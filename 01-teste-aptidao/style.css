@@ -99,6 +99,13 @@ button:hover {
   background-color: #fde047;
 }
 
+.resultado.apto {
+  border: 2px solid #14532d;  
+}
+.resultado.nao-apto {
+  border: 2px solid #7f1d1d;
+
+}
 .resultado {
   display: flex;
   min-height: 6rem;
