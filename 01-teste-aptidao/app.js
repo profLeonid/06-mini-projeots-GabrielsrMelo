@@ -12,6 +12,9 @@ function avaliar(){
         resultado.textContent = 'Não Apto'
         resultado.classList.add('nao-apto')
     }
+
+    tempo.value = ''
+    tempo.focus()
 }
 function removerClasses(){
     const resultado = document.getElementById('resultado')
