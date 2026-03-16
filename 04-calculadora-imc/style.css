@@ -110,6 +110,24 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
+.resultado.abaixo{
+  border: 2px solid #1e3a5f;
+}
+.resultado.peso-ideal{
+  border: 2px solid #14532d;
+}
+.resultado.sobrepeso{
+  border: 2px solid #713f12;
+}
+.resultado.obesidade1{
+  border: 2px solid #7f1d1d;
+}
+.resultado.obesidade2{
+  border: 2px solid #6b0f0f;
+}
+.resultado.obesidade3{
+  border: 2px solid #450a0a;
+}
 
 footer {
   display: flex;

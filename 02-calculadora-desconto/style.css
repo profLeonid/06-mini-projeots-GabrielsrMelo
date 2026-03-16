@@ -108,6 +108,16 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
+.resultado.desconto-baixo{
+  border: 2px solid #14532d;
+
+}
+.resultado.desconto-medio{
+  border: 2px solid #713f12;
+}
+.resultado.desconto-alto{
+  border: 2px solid #7f1d1d;
+}
 
 footer {
   display: flex;
