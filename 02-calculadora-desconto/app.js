@@ -17,18 +17,15 @@ function calcularDesconto() {
     removerClasses()
     if (desconto < 5) {
         resultado.classList.add('desconto-baixo') 
-        resultado.innerHTML = `Preço Final: R$ ${valorFinal.toFixed(2)} <br>
-                               Economia de: R$ ${valorDesconto.toFixed(2)}`
+        resultado.textContent = `Preço Final: R$ ${valorFinal.toFixed(2)}. Economia de: R$ ${valorDesconto.toFixed(2)}`
 
     } else if (desconto <= 10) {
         resultado.classList.add('desconto-medio')
-        resultado.innerHTML = `Preço final: R$ ${valorFinal.toFixed(2)} <br> 
-                               Economia de: R$ ${valorDesconto.toFixed(2)}`
+        resultado.textContent = `Preço final: R$ ${valorFinal.toFixed(2)}. Economia de: R$ ${valorDesconto.toFixed(2)}`
 
     } else {
         resultado.classList.add('desconto-alto')
-        resultado.innerHTML = `Preço final: R$ ${valorFinal.toFixed(2)} <br> 
-                               Economia de: R$ ${valorDesconto.toFixed(2)}`
+        resultado.textContent = `Preço final: R$ ${valorFinal.toFixed(2)}. Economia de: R$ ${valorDesconto.toFixed(2)}`
 
     }
 
